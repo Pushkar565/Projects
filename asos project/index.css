@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+#upperNav {
+  background-color: #f8f8f8;
+  height: 35px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 20px;
+}
+
+#upperUl {
+  display: flex;
+  gap: 15px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#upperUl li {
+  font-size: 14px;
+  color: #525050;
+   margin-left: 25px;
+}
+
+#upperUl button img {
+  height: 20px;
+  vertical-align: middle;
+}
+
+.navbar img{
+  margin-left: 15px;
+  margin-top: 10px;
+  height: 40px;
+}
+
+.container{
+  display: flex;
+  background-color: #2d2d2d;
+}
+
+.navbar-nav{
+  display: flex;
+  gap: 30px;
+  list-style-type: none;
+  color:white;
+  font-size: 20px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: -25px;
+}
+
+.navbar-search {
+  position: relative;
+}
+
+.navbar-search input{
+  height: 30px;
+  width: 600px;
+  border-radius: 50px;
+  padding: 3px 40px 3px 10px; /* Adjust padding to make space for the icon */
+  margin: 10px;
+}
+
+.navbar-search i {
+  position: absolute;
+  top: 50%;
+  right: 250px;
+  transform: translateY(-50%);
+  color: #999; /* Adjust color as needed */
+}
+
+.navbar-nav{
+  display: flex;
+  gap: 30px;
+  list-style-type: none;
+  color:white;
+  font-size: 17px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+  ;
+  font-weight: 650;
+  
+}
+
+.navbar-nav li{
+  margin-right: 25px;
+  height: 5px;
+}
+
+#profile-logo{
+ height: 25px;
+ right: 10px;
+ margin-left: 45px;
+}
+
+#wishlist-logo{
+  height: 20px;
+  margin-left: 45px;
+}
+
+#brifcase{
+height: 20px;
+margin-left: 45px;
+}
+
+

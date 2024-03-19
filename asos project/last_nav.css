@@ -1,0 +1,64 @@
+#last-navbar ul{
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+
+}
+
+ span{
+  background-color: red;
+  color: white;
+  height:60px;
+  margin: 0;
+  padding: 0px;
+
+}
+
+.navbar {
+  background-color: rgb(82, 80, 80);
+  overflow: hidden;
+  
+  
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 13px 15px;
+  text-decoration: none;
+  font-size: 14px;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ 
+  
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+
+}
+
+
+.sale-badge {
+  background-color: red;
+  color: white;
+  padding: 0px 10px;
+  font-size: 12px;
+  margin-left: 5px;
+  height: 100%;
+  margin-top: -100%;
+  margin-bottom: -100%;
+  display: inline-block;
+  transform: skew(-15deg); 
+  line-height: 40px; 
+  margin-left: 50%;
+  margin-left: 90px;
+}
+
+.navbar span{
+  font-weight: 700;
+}
+
+
