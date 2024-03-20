@@ -1,0 +1,27 @@
+#img-container {
+  display: flex;
+  align-items: center; /* Align items vertically at the center */
+  margin-left: 15vh;
+
+}
+
+#img-container img {
+  height: 200px;
+  transition: opacity 0.3s ease-in;
+}
+
+#img-container img:hover {
+  opacity: 0.7;
+}
+
+#img-container img:not(:hover) {
+  opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+  #img-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+}

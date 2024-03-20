@@ -8,9 +8,16 @@
   <link rel="stylesheet" href="last_nav.css">
   <link rel="stylesheet" href="index.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="feature.css">
+  <link rel="stylesheet" href="section4.css">
+  <link rel="stylesheet" href="moment.css">
+  <link rel="stylesheet" href="trendingBrands.css">
 
-<link rel="stylesheet" href="section4.css">
-
+  <style>
+    *body{
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+  </style>
 </head>
 
 <body>
@@ -27,7 +34,6 @@
     <div class="container">
       <div class="navbar-brand">
         <img src="men/asos1.png" alt="ASOS Logo">
-
       </div>
       <div class="navbar-menu">
         <ul class="navbar-nav">
@@ -37,25 +43,18 @@
       </div>
       <div class="navbar-search">
         <form action="#" method="get">
-          <input
-            style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: #bababa;"
-            type="text" name="search" placeholder="Search for items and brands">
+          <input type="text" name="search" placeholder="Search for items and brands">
           <i class="fa fa-search"></i>
-
-
-          <img id="profile-logo" src="/men/hat.svg" alt="profile">
-
+          <img id="profile-logo" src="men/hat.svg" alt="profile">
           <img id="wishlist-logo" src="men/herart.png" alt="wishlist">
-
           <img id="brifcase" src="men/brifcase.svg" alt="">
+        </form>
       </div>
-      </form>
-    </div>
     </div>
   </nav>
 
   <div class="navbar">
-    <a href="#"> <span class="sale-badge">Sale</span></a>
+    <a href="#"><span class="sale-badge">Sale</span></a>
     <a href="#">New in</a>
     <a href="#">Clothing</a>
     <a href="#">Shoes</a>
@@ -64,45 +63,160 @@
     <a href="#">Sportswear</a>
     <a href="#">Topman</a>
     <a href="#">Marketplace</a>
-  </div>
-
-<section id="section4">
- <div id="sectionDiv">
-  <div id="sectionDiv1">
-    <button><a href=""></a>Women</button>
-
-    <div id="sectionDiv3">
-      <strong>
-        <span>UP TO 80% OFF <span>EVERYTHING!* <br>
-          Plus, an extra 15% off</span>
-          <span>With code: EXTRA15</span>
-          
-          </span>
-      </strong>
+    <div class="menu-toggle">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
     </div>
-
-    <div id="sectionDiv3">
-      <button id="button-women"><a href=""></a>Men</button>
   </div>
- </div>
-</section>
 
-<div id="hero_image_div">
-  
-  <picture>
-    <a href=""></a>
-    <img  id="Hero_image" src="men/hero_image.webp" alt="">
-  </picture>
+  <section id="section4">
+    <div id="sectionDiv">
+      <div id="sectionDiv1">
+        <button><a href=""></a>Women</button>
+        <div id="sectionDiv3">
+          <strong>
+            <span>UP TO 80% OFF <span>EVERYTHING!* <br>
+                Plus, an extra 15% off</span>
+              <span>With code: EXTRA15</span>
+            </span>
+          </strong>
+        </div>
+        <div id="sectionDiv3">
+          <button id="button-women"><a href=""></a>Men</button>
+        </div>
+      </div>
+    </div>
+  </section>
 
-   <div id="hero_image2">
-  
+  <div id="hero_image_div">
     <picture>
-      <h1>Shop the gentleman edit</h1>
-      <img src="men/hero_image2.avif" alt="">
+      <a href=""></a>
+      <img id="Hero_image" src="men/hero_image.webp" alt="">
     </picture>
-   </div>
+    <div id="hero_image2">
+      <picture>
+        <h1>Shop the gentleman edit</h1>
+        <img src="men/hero_image2.avif" alt="">
+      </picture>
+    </div>
+    <div>
+      <section id="sec-feature-img">
+        <ul class="image-list">
+          <div>
+            <li>
+              <a href="#"><img src="men/feature1.avif" alt=""></a>
+              <div class="feature_div">
+                <h3>OFF-DUTY STAPLES
+                  </h3>
+                <h4>Your weekend wardrobe
+                  </h4>
+              </div>
+            </li>
+          </div>
+          <div>
+            <li>
+              <a href="#"><img src="men/feature2.webp" alt=""></a>
+              <div class="feature_div">
+                <h3>TAILORED 'FITS
+                  </h3>
+                <h4>
+                  Every occasion, covered
+                  .</h4>
+              </div>
+            </li>
+          </div>
+          <div>
+            <li>
+              <a href="#"><img src="men/feature3.avif" alt=""></a>
+              <div class="feature_div">
+                <h3>JORTS
+                  
+                  </h3>
+                <h4>The trending item
+                 
+                  </h4>
+              </div>
+            </li>
+          </div>
+          <div>
+            <li>
+              <a href="#"><img src="men/feature4.jpg" alt=""></a>
+              <div class="feature_div">
+                <h3>TOMMY JEANS</h3>
+                <h4>
+                  Just-dropped heat</h4>
+              </div>
+            </li>
+          </div>
+        </ul>
+      </section>
 
+      <div id="color_gradient">
+        <div id="marks-container">
+          <a href="">
+            <mark id="mark1">THE ASOS APP</mark>
+
+            <p>   THE ASOS APP   
+
+              For exclusive discounts that'll make you 'appy</p>
+
+            <mark id="mark2">DOWNLOAD NOW</mark>
+          </a>
+        </div>
+      </div>
+
+
+      <section  id="moment">
+        <ul>
+
+          <!-- li-1
+       -->
+          <li>
+            <div id="img">
+              <a href=""><img src="men/moment1.jpg" alt=""></a>
+            </div>
+
+            <div id="text">
+               <h1>UPGRADED BASICS</h1>
+               <p>It's in the details </p>
+               <button>SHOP NOW</button>
+            </div>
+          </li>
+        <!-- li-2
+       -->
+          <li>
+            <div id="img2">
+               <a href=""><img src="men/momen2.webp" alt=""></a>
+            </div>
+
+            <div id="text">
+              <h1>TOPMAN</h1>
+              <p>Clean lines only</p>
+              <button>SHOP THE BRAND</button>
+           </div>
+
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 style="text-align: center;">TRENDING BRANDS</h2>
+        <div id="img-container">
+          <div><a href=""><img src="men/t1.webp" alt=""></a></div>
+          <div><a href=""><img src="men/t2.avif" alt=""></a></div>
+          <div><a href=""><img src="men/t3.avif" alt=""></a></div>
+          <div><a href=""><img src="men/t4.avif" alt=""></a></div>
+          <div><a href=""><img src="men/t5.avif" alt=""></a></div>
+          <div><a href=""><img src="men/t6.avif" alt=""></a></div>
+         
+          
+        </div>
+      </section>
+
+    </div>
   </div>
+
 </body>
 
 </html>
