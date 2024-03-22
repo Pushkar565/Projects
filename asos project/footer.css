@@ -1,0 +1,138 @@
+.footer-container {
+  background-color: rgb(238, 238, 238);
+  color: rgb(102, 102, 102);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: small;
+  
+  
+}
+
+.footer-container ul{
+  margin: 2vh;
+  padding: 2vh;
+  list-style-type: none;
+
+
+   
+}
+
+.footer-link {
+  color: rgb(102, 102, 102); /* Change to the desired color value */
+  text-decoration: none; /* Remove underline */
+}
+
+/* Change anchor tag color on hover */
+.footer-link:hover {
+  color: rgb(0, 124, 173); /* Change to the desired color value */
+}
+
+.footer-container ul li{
+  margin: 1vh;
+  padding: 1vh;
+  color: rgb(102, 102, 102);
+  
+}
+.footer-links-group {
+  display: flex;
+  flex-wrap: wrap; /* Allow sections to wrap if the container width is not enough */
+}
+
+.footer-section {
+  flex: 1; /* Make sections take up equal space */
+  margin-right: 20px; /* Adjust margin between sections */
+}
+
+.international-sites {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  align-items: center; /* Align items vertically */
+  margin-top: 20px; /* Adjust margin between sections */
+  margin-left: 40%;
+}
+/* 
+.international-sites-title {
+  margin-right: 10px; Adjust margin between title and list
+} */
+
+.international-sites-list {
+  list-style-type: none; /* Remove default list styles */
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns with equal width */
+  gap: 1px; /* Adjust the gap between items */
+ 
+  
+}
+
+.international-sites-list li {
+  margin: 0; /* Remove any existing margin */
+}
+
+.country-flag {
+  width: 15px; /* Ensure flags fill their container */
+  height: auto;
+}
+
+.current-location-text{
+background-color: transparent;
+color: rgb(102, 102, 102);
+padding: 0;
+margin: 0;
+}
+
+.hidden-text{
+  font-size: 40px;
+  background-color: transparent;
+  color: rgb(102, 102, 102);
+
+  font-weight: 700;
+}
+
+/* Define styles for screens with a maximum width of 768 pixels */
+@media only screen and (max-width: 768px) {
+  .footer-container {
+    font-size: smaller; /* Adjust font size for smaller screens */
+  }
+  
+  .footer-links-group {
+    flex-direction: column; /* Stack sections vertically on smaller screens */
+    margin-left: 0; /* Remove left margin for international sites */
+  }
+
+  .international-sites {
+    margin-left: 0; /* Remove left margin for international sites */
+  }
+}
+.footer2 {
+  display: flex;
+  justify-content: space-between; 
+  background-color: rgb(221, 221, 221);/* Align children at opposite ends */
+  align-items: center; /* Vertically center items */
+}
+
+.footer2 div {
+  display: flex;
+  align-items: center; /* Vertically center items */
+}
+
+.footer2 div ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  justify-content: flex-end; /* Align items to the right */
+}
+
+.footer2 div ul li {
+  margin-left: 3vh; /* Adjust spacing between li elements */
+  font-size: small;
+}
+
+.footer2 p {
+  margin-right: 45vh; /* Push to the left */
+  font-size: small;
+
+}
