@@ -1,0 +1,72 @@
+ /* CSS styles for product list */
+ body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.product-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+.product-list li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+.product-list figure {
+  margin: 0;
+}
+.product-list img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.product-list figcaption {
+  margin-top: 10px;
+  font-style: italic;
+  text-align: center;
+}
+.product-list span {
+  display: block;
+  font-weight: bold;
+  color: #333;
+  margin-top: 5px;
+
+}
+.product-list .deal {
+  color: red;
+}
+
+span{
+  text-align: center;
+  display: flex;
+}
+
+.btn{
+  text-align: center;
+  margin: 1vh;
+}
+
+.btn button{
+  padding-left: 5vh;
+  padding-right: 5vh;
+  padding-top: 1.5vh;
+  padding-bottom: 1.5vh;
+  background-color: black;
+  color: white;
+  font-weight: 600;
+}
+
+.btn button:hover{
+  background-color: gray;
+}
+
