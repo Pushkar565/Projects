@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Men's Clothes | Shop for Men's Fashion | ASOS</title>
     <link rel="stylesheet" href="last_nav.css" />
     <link rel="stylesheet" href="index.css" />
@@ -18,12 +18,95 @@
     <link rel="stylesheet" href="/footer.css">
     <link rel="stylesheet" href="/navbar0.css">
     <link rel="stylesheet" href="/dropdown_nav.css">
+    <link rel="stylesheet" href="/index.css">
+
+    
+    
     <style>
       *body {
         font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
           Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
           sans-serif;
       }
+/* styles.css */
+
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cart-list {
+  list-style-type: none;
+  padding: 0;
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+.cart-item {
+  border-bottom: 1px solid #ccc;
+  padding: 15px 0;
+  display: flex;
+  align-items: center;
+}
+
+.cart-item img {
+  max-width: 80px; /* Adjust image size */
+  margin-right: 20px;
+}
+
+.cart-item-info {
+  flex-grow: 1;
+}
+
+.cart-item-info h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.cart-item-info p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #885a5a;
+}
+
+.cart-item-price {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.total-price {
+  margin-top: 20px;
+  text-align: right;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.total-price span {
+  color: #ff3f6c; /* Myntra's primary color */
+}
+
+.removeBtn {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.removeBtn:hover {
+  background-color: #000000;
+}
+
+
     </style>
   </head>
 
@@ -47,7 +130,7 @@
 
   <div class="image">
     <a href="/index.html">
-      <img src="men/asos1.png" alt="">
+      <img src="/men/asos1.png" alt="">
     </a>
   </div>
   
@@ -58,6 +141,8 @@
   <div class="women">
     <a href="/women/index.html"><h3>Women</h3></a>
 
+    
+
   </div>
 
   <div class="search_bar">
@@ -67,10 +152,8 @@
   <div class="Pro_cart">
     <ul>
       <li> <a href="/profile_page/sign in page/index.html"><img src="/men/hat.svg" alt=""></a></li>
-
-      <li> <a href="/wishlist_page/index.html"><img src="men/herart.png" alt=""></a></li>
-
-      <li> <a href="/order_page/index.html"><img src="men/brifcase.svg" alt=""></a></li>
+      <li> <a href="/wishlist_page/index.html"><img src="/men/herart.png" alt=""></a></li>
+      <li> <a href="/order_page/index.html"><img src="/men/brifcase.svg" alt=""></a></li>
     </ul>
 
   </div>
@@ -88,7 +171,6 @@
       <button>Submenu 3</button>
     </div>
   </div>
-  
   <div class="dropdown">
     <button class="dropbtn">New in
       <i class="fa fa-caret-down"></i>
@@ -177,131 +259,22 @@
   <a href="/men-product-page/index.html" target="_blank"><button>MEN</button></a>
 </div>
 
+ 
+
+<div class="container">
+  <h1>Your Cart Items</h1>
+  <ul style="font-weight: bold;
+   color: #5b5050;" id="cartList"></ul>
+  <div style="font-weight:700; font-size: larger;" id="totalPrice"></div> <!-- Display total price here -->
+</div>
+
+
+
+
+
+<script src="/men-product-page/script.js"></script>
+<!-- content -->
     
-    
-
-    <div id="hero_image_div">
-      <picture>
-        <a href="/men-product-page/index.html"> <img id="Hero_image" src="men/hero_image.webp" alt="" /></a>
-       
-      </picture>
-      <div id="hero_image2">
-        <picture>
-         <a href="/men-product-page/index.html"><img id="hero_image2" src="men/hero_image2.png" alt="" /></a>
-          
-        </picture>
-      </div>
-      <div>
-
-        <section id="sec-feature-img">
-          <ul class="image-list">
-            <div>
-              <li>
-                <a href="/men-product-page/index.html"><img src="men/feature1.avif" alt="" /></a>
-                <div class="feature_div">
-                  <h3>OFF-DUTY STAPLES</h3>
-                  <h4>Your weekend wardrobe</h4>
-                </div>
-              </li>
-            </div>
-            <div>
-              <li>
-                <a href="/men-product-page/index.html"><img src="men/feature2.webp" alt="" /></a>
-                <div class="feature_div">
-                  <h3>TAILORED 'FITS</h3>
-                  <h4>Every occasion, covered .</h4>
-                </div>
-              </li>
-            </div>
-            <div>
-              <li>
-                <a href="/men-product-page/index.html"><img src="men/feature3.avif" alt="" /></a>
-                <div class="feature_div">
-                  <h3>JORTS</h3>
-                  <h4>The trending item</h4>
-                </div>
-              </li>
-            </div>
-            <div>
-              <li>
-                <a href="/men-product-page/index.html"><img src="men/feature4.jpg" alt="" /></a>
-                <div class="feature_div">
-                  <h3>TOMMY JEANS</h3>
-                  <h4>Just-dropped heat</h4>
-                </div>
-              </li>
-            </div>
-          </ul>
-        </section>
-
-        <div id="color_gradient">
-          <div id="marks-container">
-            <a href="">
-              <mark id="mark1">THE ASOS APP</mark>
-
-              <p>THE ASOS APP For exclusive discounts that'll make you 'appy</p>
-
-              <mark id="mark2">DOWNLOAD NOW</mark>
-            </a>
-          </div>
-        </div>
-
-        <section id="moment">
-          <ul>
-            <!-- li-1
-       -->
-            <li>
-              <div id="img">
-                <a href="/men-product-page/index.html"><img src="men/moment1.jpg" alt="" /></a>
-              </div>
-
-              <div id="text">
-                <h1>UPGRADED BASICS</h1>
-                <p>It's in the details</p>
-                <button>SHOP NOW</button>
-              </div>
-            </li>
-            <!-- li-2
-       -->
-            <li>
-              <div id="img2">
-                <a href="/men-product-page/index.html"><img src="men/momen2.webp" alt="" /></a>
-              </div>
-
-              <div id="text">
-                <h1>TOPMAN</h1>
-                <p>Clean lines only</p>
-                <button>SHOP THE BRAND</button>
-              </div>
-            </li>
-          </ul>
-        </section>
-
-
-
-        <section>
-          <h2 style="text-align: center">TRENDING BRANDS</h2>
-          <div id="img-container">
-            <div>
-              <a href=""><img src="men/t1.webp" alt="" /></a>
-            </div>
-            <div>
-              <a href=""><img src="men/t2.avif" alt="" /></a>
-            </div>
-            <div>
-              <a href=""><img src="men/t3.avif" alt="" /></a>
-            </div>
-            <div>
-              <a href=""><img src="men/t4.avif" alt="" /></a>
-            </div>
-            <div>
-              <a href=""><img src="men/t5.avif" alt="" /></a>
-            </div>
-            <div>
-              <a href=""><img src="men/t6.avif" alt="" /></a>
-            </div>
-          </div>
-        </section>
 
         <div class="social-media-container">
           <ul class="social-media-links" data-testid="social-links-bar">
@@ -311,7 +284,7 @@
                 target="_blank"
                 rel="noopener noreferrer"
                 data-testid="social-link"
-                ><span><img src="men/face book.png" alt=""></span></a
+                ><span><img src="/men/face book.png" alt=""></span></a
               >
             </li>
             <li class="social-media-link instagram">
@@ -320,7 +293,7 @@
                 target="_blank"
                 rel="noopener noreferrer"
                 data-testid="social-link"
-                ><span><img src="men/insta.png" alt=""></span></a
+                ><span><img src="/men/insta.png" alt=""></span></a
               >
             </li>
             <li class="social-media-link snapchat">
@@ -329,7 +302,7 @@
                 target="_blank"
                 rel="noopener noreferrer"
                 data-testid="social-link"
-                ><span><img src="men/snapchat.png" alt=""></span></a
+                ><span><img src="/men/snapchat.png" alt=""></span></a
               >
             </li>
           </ul>
@@ -444,10 +417,24 @@
         </div>
       </div>
 
+
+
+      <div>Product ID: ${item.id}</div>
+      <div>Name: ${item.name}</div>
+      <div>Price: ${item.price}</div>
+      <div>Quantity: ${item.quantity}</div>
+      <img style="width: 100px; height: 100xp;" src="${item.img}" alt="${item.name}"> <!-- Display product image -->
+      <button class="removeBtn" data-id="${item.id}">Remove</button>
+      <hr>
+
       </div>
     </div>
 
-    
+    <script src="/order_page/index.js">
 
+
+
+    </script>
+    
   </body>
 </html>
