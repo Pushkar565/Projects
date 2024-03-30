@@ -27,7 +27,21 @@
           Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
           sans-serif;
       }
+
+      .removeBtn {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.removeBtn:hover {
+  background-color: #000000;
+}
+
     </style>
+
   </head>
 
   <body>
@@ -178,9 +192,9 @@
 </div>
 
  
-
-<h1>My Wishlist</h1>
- 
+<h1>Wishlist Items</h1>
+<ul id="wishlist" style="font-weight: bold;
+color: #5b5050;" ></ul>
 
 
 <script src="/men-product-page/script.js"></script>
@@ -330,6 +344,8 @@
 
       </div>
     </div>
+
+    <script src="/wishlist_page/index.js"></script>
 
   </body>
 </html>

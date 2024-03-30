@@ -1,4 +1,4 @@
-const wishlistBtns = document.querySelectorAll(".Wishlist-btn");
+
 const cartBtns = document.querySelectorAll(".cart-btn");
 
 function cartBtnUpdate() {
@@ -42,3 +42,7 @@ function cartBtnUpdate() {
 }
 
 cartBtnUpdate(); // Call the function to initialize event listeners
+
+
+
+
