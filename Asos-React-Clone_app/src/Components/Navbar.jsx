@@ -19,7 +19,7 @@ const Navbar = () => {
         </div>
         <input className="Nav-input-box" type="text" placeholder="Search..." />
         <div className="nav-icons">
-          <Link to='/MenHome'>
+          <Link to='/SignIn'>
           <img src="src/Pages/home-image/profile.jpg" alt="" />
 
           </Link>
