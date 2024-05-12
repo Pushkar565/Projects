@@ -2,10 +2,10 @@
 import React ,{useState}from 'react';
 import ReactPlayer from 'react-player';
 import ProductList from './ProductList';
-import  { useState } from 'react';
+
 
 const MenProductPage = () => {
-  const [cartItems, setCartItems] = useState([]);
+ 
   const products = [
     { id: 1, title: 'Product 1', price: '$20', image: '/src/Pages/Men-home-image/p1.webp' },
     { id: 2, title: 'Product 2', price: '$25', image: '/src/Pages/Men-home-image/p2.webp' },
@@ -22,9 +22,6 @@ const MenProductPage = () => {
   ];
 
 
-  const addToCart = (product) =>{
-    setCartItems([...CartItems,product])
-  }
 
   return (
     <>
