@@ -1,0 +1,90 @@
+/* SignIn.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(238, 238, 238);
+  color: rgb(118, 118, 118);
+}
+
+.container {
+  width: 40%;
+  margin: 5% auto;
+  background-color: #eeeeee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.login {
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.login .input {
+  width: 96%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.login input[type="submit"] {
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+}
+
+.login input[type="submit"]:hover {
+  background-color: gray;
+}
+
+.btn {
+  width: 96%;
+  height: 45px;
+  font-weight: 700;
+  margin: 1vh;
+  font-size: medium;
+  color: rgb(118, 118, 118);
+}
+
+.btn img {
+  width: 1vw;
+  padding-right: 1vw;
+}
+
+#asos {
+  display: block;
+  margin: auto;
+  padding-bottom: 5%;
+}
+
+#imgdiv {
+  background-color: rgb(238, 238, 238);
+  width: 100%;
+}
+
+/* SignIn.css */
+
+/* Existing styles */
+
+.Name {
+  margin-top: 20px;
+}
+
+.Name label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.Name input[type="text"] {
+  width: 100%;
+  padding-left: 26VH;
+  padding-right: 25VH;
+  padding-top: 1VH;
+  padding-bottom: 1VH;
+
+}
