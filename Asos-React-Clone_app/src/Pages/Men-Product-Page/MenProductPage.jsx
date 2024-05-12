@@ -1,11 +1,19 @@
 // MenProductPage.jsx
-import React ,{useState}from 'react';
+import React from 'react';
 import ReactPlayer from 'react-player';
 import ProductList from './ProductList';
-
+import { Link } from 'react-router-dom';
+import { useDispatch, useSelector } from 'react-redux';
 
 const MenProductPage = () => {
- 
+  const dispatch = useDispatch();
+  const cart = useSelector((state) => state.cart);
+
+  const addToCart = (product) => {
+    dispatch({ type: 'ADD_TO_CART', payload: product });
+  };
+
+
   const products = [
     { id: 1, title: 'Product 1', price: '$20', image: '/src/Pages/Men-home-image/p1.webp' },
     { id: 2, title: 'Product 2', price: '$25', image: '/src/Pages/Men-home-image/p2.webp' },
@@ -19,10 +27,11 @@ const MenProductPage = () => {
     { id: 10, title: 'Product 10', price: '$20', image: 'src/Pages/Men-home-image/p10.webp' },
     { id: 11, title: 'Product 11', price: '$20', image: 'src/Pages/Men-home-image/p11.webp' }
     // Add more product data as needed
+    // ... (rest of the product data)
   ];
 
-
-
+  
+  
   return (
     <>
       <div style={{ position: 'relative', height: '50vh' }}>
@@ -51,14 +60,9 @@ const MenProductPage = () => {
       </div>
 
       <div className="men-product-page">
-        <h2 style={{textAlign:"center"}}>Men's Products</h2>
-        <ProductList products={products} />
-        <div className="men-product-page">
         <h2 style={{ textAlign: "center" }}>Men's Products</h2>
-        <ProductList products={products} addToCart={addToCart} />
-        {/* Add filters and pagination components here */}
-        <Link to="/cart">Go to Cart</Link>
-      </div>
+        <ProductList products={products} handleAddToCart={addToCart} />
+        <Link to="/CartPage">View Cart</Link>
       </div>
     </>
   );

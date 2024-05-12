@@ -1,21 +1,22 @@
 import React, { useState } from "react";
 import "./SignIn.css";
+import { useNavigate } from "react-router-dom"; // Import the useNavigate hook
 
 const SignIn = () => {
   const [isSignIn, setIsSignIn] = useState(true);
+  const navigate = useNavigate(); // Create an instance of the useNavigate hook
 
   const handleSignIn = () => {
     const email = document.getElementsByName("uname")[0].value;
     const password = document.getElementsByName("psw")[0].value;
 
-    if (email === "" || password === "") {
-      alert("Enter Details");
-    } else {
+    if (email === "kpushkar56@gmail.com" && password === "1234") {
       alert("Login Successful");
-      window.location.href = "/";
+      navigate("/MenProductPage"); // Navigate to the WomenProductPage route
+    } else {
+      alert("Invalid credentials");
     }
   };
-
   const handleSignUp = () => {
     const name = document.getElementsByName("name")[0].value;
     const email = document.getElementsByName("uname")[0].value;
@@ -25,7 +26,7 @@ const SignIn = () => {
       alert("Enter Details");
     } else {
       alert("Sign Up Successful");
-      window.location.href = "/";
+      window.location.href = "/WomenProductPage";
     }
   };
 

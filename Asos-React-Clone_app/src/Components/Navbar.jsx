@@ -21,12 +21,11 @@ const Navbar = () => {
         <div className="nav-icons">
           <Link to='/SignIn'>
           <img src="src/Pages/home-image/profile.jpg" alt="" />
-
           </Link>
           <Link >
             <img src="src/Pages/home-image/herart.png" alt="" />
           </Link>
-          <Link>
+          <Link to="/CartPage">
             <img src="src/Pages/home-image/brifcase.svg" alt="" />
           </Link>
         </div>
