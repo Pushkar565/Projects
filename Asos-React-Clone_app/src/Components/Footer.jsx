@@ -4,44 +4,7 @@ import "./Footer.css"
 const Footer = () => {
   return (
     <>
-    {/* <div>
-     
-     <section>
-       <Link>
-       <img src="" alt="" />
-       </Link>
-
-       <Link>
-       <img src="" alt="" />
-       </Link>
-
-       <Link>
-       <img src="" alt="" />
-       </Link>
-     </section>
-
-     <section>
-
-     <Link>
-       <img src="" alt="" />
-       </Link>
-
-       <Link>
-       <img src="" alt="" />
-       </Link>
-
-       <Link>
-       <img src="" alt="" />
-       </Link>
-
-       <Link>
-       <img src="" alt="" />
-       </Link>
-
-     </section>
-
-    </div> */}
-
+   
 <div className="menu-container">
         <section className="menu-section sec1">
             <h4>HELP & INFORMATION</h4>
@@ -85,8 +48,8 @@ const Footer = () => {
     </div>
 
       
-     <div>
-     <nav>
+     <div className='rightsFooter'>
+     <nav >
    <p >© 2024 ASOS</p>
    <p>Privacy & Cookies</p>
    <p>T&Cs</p>

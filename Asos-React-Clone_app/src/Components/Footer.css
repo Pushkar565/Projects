@@ -16,7 +16,8 @@
 .menu-section h4 {
   display: inline-block;
   margin-bottom: 0;
-  font-weight: 700; /* Remove default margin */
+  font-weight: 700;
+   color: black; /* Remove default margin */
 }
 
 .menu-section ul {
@@ -28,4 +29,9 @@
 
 .menu-section li {
   margin: 5px 0; /* Adjust vertical spacing between list items */
+}
+
+.rightsFooter{
+  height: 6vh;
+  background-color: #dddddd;
 }
