@@ -42,8 +42,8 @@ const Footer = () => {
 
     </div> */}
 
-<div class="menu-container">
-        <section class="menu-section sec1">
+<div className="menu-container">
+        <section className="menu-section sec1">
             <h4>HELP & INFORMATION</h4>
             <ul>
                 <li>Help</li>
@@ -53,7 +53,7 @@ const Footer = () => {
             </ul>
         </section>
 
-        <section class="menu-section sec2">
+        <section className="menu-section sec2">
             <h4>ABOUT ASOS</h4>
             <ul>
                 <li>Help</li>
@@ -63,7 +63,7 @@ const Footer = () => {
             </ul>
         </section>
 
-        <section class="menu-section sec3">
+        <section className="menu-section sec3">
             <h4>MORE FROM ASOS</h4>
             <ul>
                 <li>Help</li>
@@ -73,7 +73,7 @@ const Footer = () => {
             </ul>
         </section>
 
-        <section class="menu-section sec4">
+        <section className="menu-section sec4">
             <h4>SHOPPING FROM</h4>
             <ul>
                 <li>Help</li>

@@ -22,7 +22,7 @@ const Dropdown = () => {
           onMouseEnter={() => toggleDropdown('newIn')}
           onMouseLeave={() => toggleDropdown('newIn')}
         >
-          <h5>New in</h5>
+          New in
         </h4>
         {/* Dropdown menu */}
         {openDropdowns['newIn'] && (
@@ -49,7 +49,7 @@ const Dropdown = () => {
           onMouseEnter={() => toggleDropdown('clothing')}
           onMouseLeave={() => toggleDropdown('clothing')}
         >
-          <h5>Clothing</h5>
+          Clothing
         </h4>
         {openDropdowns['clothing'] && (
           <nav>
@@ -74,7 +74,7 @@ const Dropdown = () => {
           onMouseEnter={() => toggleDropdown('Trending')}
           onMouseLeave={() => toggleDropdown('Trending')}
         >
-          <h5>Trending</h5>
+          Trending
         </h4>
         {openDropdowns['Trending'] && (
           <nav>
@@ -99,7 +99,7 @@ const Dropdown = () => {
           onMouseEnter={() => toggleDropdown('Shoes')}
           onMouseLeave={() => toggleDropdown('Shoes')}
         >
-         <h5>Shoes</h5>
+         Shoes
         </h4>
         {openDropdowns['Shoes'] && (
           <nav>
@@ -124,7 +124,7 @@ const Dropdown = () => {
           onMouseEnter={() => toggleDropdown('Accessories')}
           onMouseLeave={() => toggleDropdown('Accessories')}
         >
-         <h5>Accessories</h5>
+         Accessories
         </h4>
         {openDropdowns['Accessories'] && (
           <nav>
@@ -149,7 +149,7 @@ const Dropdown = () => {
           onMouseEnter={() => toggleDropdown('Brands')}
           onMouseLeave={() => toggleDropdown('Brands')}
         >
-        <h5>Brands</h5>
+        Brands
         </h4>
         {openDropdowns['Brands'] && (
           <nav>
@@ -174,7 +174,7 @@ const Dropdown = () => {
           onMouseEnter={() => toggleDropdown('Sportswear')}
           onMouseLeave={() => toggleDropdown('Sportswear')}
         >
-         <h5>Sportswear</h5>
+         Sportswear
         </h4>
         {openDropdowns['Sportswear'] && (
           <nav>
@@ -199,7 +199,7 @@ const Dropdown = () => {
           onMouseEnter={() => toggleDropdown('Topman')}
           onMouseLeave={() => toggleDropdown('Topman')}
         >
-         <h5>Topman</h5>
+         Topman
         </h4>
         {openDropdowns['Topman'] && (
           <nav>
@@ -224,7 +224,7 @@ const Dropdown = () => {
           onMouseEnter={() => toggleDropdown('Marketplace')}
           onMouseLeave={() => toggleDropdown('Marketplace')}
         >
-        <h5>Marketplace</h5>
+        Marketplace
         </h4>
         {openDropdowns['Marketplace'] && (
           <nav>
@@ -249,7 +249,7 @@ const Dropdown = () => {
           onMouseEnter={() => toggleDropdown('Sale')}
           onMouseLeave={() => toggleDropdown('Sale')}
         >
-         <h5>Sale</h5>
+         Sale
         </h4>
         {openDropdowns['Sale'] && (
           <nav>

@@ -3,6 +3,7 @@
   justify-content: space-around;
   align-items: flex-start;
   gap: 20px;
+  background-color: #eeeeee;
 }
 
 .menu-section {
@@ -14,7 +15,8 @@
 
 .menu-section h4 {
   display: inline-block;
-  margin-bottom: 0; /* Remove default margin */
+  margin-bottom: 0;
+  font-weight: 700; /* Remove default margin */
 }
 
 .menu-section ul {

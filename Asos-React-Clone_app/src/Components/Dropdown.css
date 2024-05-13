@@ -29,8 +29,62 @@
 /* Dropdown menu items */
 .dropdown > nav ul {
   list-style-type: none;
-  padding: 0;
-  margin: 0;
+  padding: 0;/* Dropdown container */
+  .dropdown-container {
+    display: flex;
+    gap: 10px;
+    background-color: #525050;
+    gap: 4vh;
+    padding: 2vh;
+    padding-left: 20vh;
+  }
+  
+  /* Dropdown style */
+  .dropdown {
+    position: relative;
+  }
+  
+  /* Dropdown menu */
+  .dropdown > nav {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    background-color: #000000;
+    border: 1px solid #000000;
+    padding: 5px 0;
+    z-index: 1; /* Added to ensure the dropdown appears above other elements */
+  }
+  
+  /* Dropdown menu items */
+  .dropdown > nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .dropdown > nav ul li {
+    padding: 8px 15px;
+    cursor: pointer;
+    color: #ffffff; /* Added to make the text visible against the black background */
+  }
+  
+  /* Show dropdown menu on hover */
+  .dropdown:hover > nav {
+    display: block;
+  }
+  
+  h4 {
+    color: #ffffff;
+    font-weight: 500;
+  }
+  
+  /* Added hover effect for the dropdown header */
+  .dropdown h4:hover {
+    background-color: #333333;
+    /* Add any other hover styles you want here */
+  }
+  
 }
 
 .dropdown > nav ul li {
@@ -45,7 +99,7 @@
   display: block;
 }
 
-h5{
+h4{
   color: #ffffff;
  
   font-weight: 500;
